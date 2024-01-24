@@ -5,8 +5,7 @@ export const API_OPTIONS = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDY5MDBiY2U1ZjAwYWFmM2NmOWRiNmQyYWE5NzkwYiIsInN1YiI6IjY1YWExMDJlNjhhZmQ2MDEyZDUwYmIwNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.kLQab1FejeEqq6j_5DGuxp0GDT6cLXN2agWdyl1ioq4'
-  }
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDY5MDBiY2U1ZjAwYWFmM2NmOWRiNmQyYWE5NzkwYiIsInN1YiI6IjY1YWExMDJlNjhhZmQ2MDEyZDUwYmIwNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.kLQab1FejeEqq6j_5DGuxp0GDT6cLXN2agWdyl1ioq4'}
 };
 
 export const POSTER_CDN_URL = "https://image.tmdb.org/t/p/w780"
@@ -20,3 +19,5 @@ export const SELECTED_LANGUAGE = [
   { value: 'spanish', label: 'Spanish' },
   { value: 'korean', label: 'korean' },
 ]
+
+export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY
